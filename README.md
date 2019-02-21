@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/MushroomDev/TranslateMan/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+This is an online translation plug-in for Safari.
+Plug-ins use Google's translation service, stable and reassuring.
 
-# Header 1
-## Header 2
-### Header 3
+Important functions:
+1. Support up to 20 commonly used international languages.
+2. Provide double-click translation and crossword translation
+3. Translated content can be pronounced.
+4. The interface is simple and easy to operate.
 
-- Bulleted
-- List
+Question Answer:
+1. What if you can't find the language to support?
+Click on Software Settings - > Language to set it. If not, please contact me to add it.
+2. What about software usage?
+Can contact swain6@163.com to solve the problem at the first time, the software will be more perfect.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Note:
+1. Word scribbling and double-click translation are currently only supported in English - > Chinese, and will be updated to the settings in the future.
+2. The software will be updated continuously to add more functions that users like.
+If you have any questions or suggestions, please contact swain6@163.com.
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MushroomDev/TranslateMan/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
