@@ -1,22 +1,32 @@
+# 翻译官 for Safari(TranslateMan) 使用说明
 
-```markdown
-This is an online translation plug-in for Safari.
-Plug-ins use Google's translation service, stable and reassuring.
+## 操作指南
 
-Important functions:
-1. Support up to 20 commonly used international languages.
-2. Provide double-click translation and crossword translation
-3. Translated content can be pronounced.
-4. The interface is simple and easy to operate.
+### 1.设置启用插件
+      (1)在软件中点击设置.
+      (2)在Safari插件设置中将TranslateMan设置为开启
+      (3)返回软件看插件状态是否已经改为启动并可进行软件设置
 
-Question Answer:
-1. What if you can't find the language to support?
-Click on Software Settings - > Language to set it. If not, please contact me to add it.
-2. What about software usage?
-Can contact swain6@163.com to solve the problem at the first time, the software will be more perfect.
 
-Note:
-1. Word scribbling and double-click translation are currently only supported in English - > Chinese, and will be updated to the settings in the future.
-2. The software will be updated continuously to add more functions that users like.
-If you have any questions or suggestions, please contact swain6@163.com.
-```
+### 2.启动Safari并使用
+      (1)插件启用后需要用户重新启动Safari浏览器或从新刷新当前页面(刷新才能将插件翻译代码注入页面中)
+      (2)进行划词操作和双击操作选择文字,稍有延迟后弹出 翻译弹窗
+      (3)软件主体界面可以更精确的翻译和多种语言翻译，也可以设置插件启动状态
+
+## 问题答疑
+
+### 1.网页上划词或双击不显示翻译窗怎么办?
+      (1)软件第一版只支持网页上的英文->中文,其他语言设置请稍等后续版本加入
+      (2)插件启用后，必须要 重新启动Safari浏览器或刷新当前网页才可以生效(刷新才能将插件翻译代码注入页面中)
+      (3)有些语句不显示翻译弹窗，可能是Google服务翻译出错，正在排查..
+
+### 2.找不到支持的语种怎么办?
+
+      点击软件设置->语言 即可设置，没有的请联系我进行添加
+   
+### 3.看过上面的指南还有软件使用问题怎么办?
+      可第一时间联系swain6@163.com进行解决，软件会更加完善
+
+### 4.翻译后的内容还不够丰富没有Google翻译出的结果详细怎么办?
+      目前进行显示UI和翻译结果升级，更多的翻译内容如(近义词,例句等等)会在后续版本中加入
+
