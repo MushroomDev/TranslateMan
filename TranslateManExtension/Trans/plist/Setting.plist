@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enOrch</key>
+	<true/>
+	<key>doubleclick</key>
+	<true/>
+	<key>selecttext</key>
+	<false/>
+	<key>autoplay</key>
+	<false/>
+	<key>mouseon</key>
+	<false/>
+	<key>fromlang</key>
+	<string>auto</string>
+	<key>tolang</key>
+	<string>en</string>
+	<key>webtolang</key>
+	<string>zh-CN</string>
+	<key>webTransLang</key>
+	<string>zh-CN</string>
+	<key>offtenuse</key>
+	<array>
+		<string>en</string>
+		<string>zh-CN</string>
+	</array>
+</dict>
+</plist>

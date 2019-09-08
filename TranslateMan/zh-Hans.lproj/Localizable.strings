@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  TranslateMan
+
+  Created by wangshiwen on 2019/2/20.
+  Copyright © 2019 wangshiwen. All rights reserved.
+*/
+
+"ExtensionStateAvailable" = "插件已生效.";
+"ExtensionStateUnavailable" = "插件目前尚未生效,请在Safari中设置生效.";

@@ -1,0 +1,18 @@
+
+/* Class = "NSTextFieldCell"; title = "自动发音"; ObjectID = "23F-CF-xvW"; */
+"23F-CF-xvW.title" = "自动发音";
+
+/* Class = "NSTextFieldCell"; title = "双击单词翻译"; ObjectID = "Bur-RY-gfi"; */
+"Bur-RY-gfi.title" = "双击单词翻译";
+
+/* Class = "NSTextFieldCell"; title = "设置网页翻译语言"; ObjectID = "EyX-Oz-w7t"; */
+"EyX-Oz-w7t.title" = "设置网页翻译语言";
+
+/* Class = "NSTextFieldCell"; title = "划词后自动翻译"; ObjectID = "US0-Sp-6zu"; */
+"US0-Sp-6zu.title" = "划词后自动翻译";
+
+/* Class = "NSTextFieldCell"; title = "英文"; ObjectID = "XJF-sd-2Tx"; */
+"XJF-sd-2Tx.title" = "英文";
+
+/* Class = "NSButtonCell"; title = "←设置"; ObjectID = "wNM-TI-kdg"; */
+"wNM-TI-kdg.title" = "←设置";

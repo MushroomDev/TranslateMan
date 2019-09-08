@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SWSetting">
+            <connections>
+                <outlet property="backBtn" destination="n6m-in-FkF" id="JS7-AH-F2t"/>
+                <outlet property="bgview" destination="F1U-ZW-FrL" id="ays-1L-zMf"/>
+                <outlet property="cellview" destination="zpN-Ky-y51" id="YIf-bP-evL"/>
+                <outlet property="line1view" destination="WiQ-Sf-9dQ" id="t7g-MP-hYl"/>
+                <outlet property="line2view" destination="0tt-e3-m8d" id="hux-wu-mzg"/>
+                <outlet property="line3view" destination="28H-Ff-ObC" id="yyH-SC-LgW"/>
+                <outlet property="line4view" destination="cNZ-by-fep" id="eUA-Tb-rgp"/>
+                <outlet property="setting1Btn" destination="CCG-OE-2f6" id="vdn-Az-KLn"/>
+                <outlet property="setting2Btn" destination="0bU-tk-L6q" id="2ky-Xl-ptV"/>
+                <outlet property="setting3Btn" destination="QDm-8b-gtu" id="VZa-9d-bab"/>
+                <outlet property="switchLangBtn" destination="nca-oJ-ZQ6" id="XyV-p9-MYi"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="webTransLangLabel" destination="HBG-43-lK8" id="mwf-CZ-D7y"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="267"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n6m-in-FkF" customClass="SWButton">
+                    <rect key="frame" x="10" y="232" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="5c1-df-qIz"/>
+                        <constraint firstAttribute="height" constant="30" id="feY-NG-r7x"/>
+                    </constraints>
+                    <buttonCell key="cell" type="bevel" title="←设置" bezelStyle="rounded" alignment="left" state="on" imageScaling="proportionallyDown" inset="2" id="wNM-TI-kdg">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                    <connections>
+                        <action selector="setBackBtnClick:" target="-2" id="01d-8I-q2v"/>
+                    </connections>
+                </button>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="F1U-ZW-FrL">
+                    <rect key="frame" x="10" y="11" width="310" height="221"/>
+                    <subviews>
+                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zpN-Ky-y51">
+                            <rect key="frame" x="0.0" y="-23" width="310" height="224"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pq5-rP-DoD">
+                                    <rect key="frame" x="0.0" y="184" width="310" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tfi-8m-biu">
+                                            <rect key="frame" x="18" y="11" width="242" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="双击单词翻译" id="Bur-RY-gfi">
+                                                <font key="font" usesAppearanceFont="YES"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCG-OE-2f6" customClass="SWButton">
+                                            <rect key="frame" x="270" y="10" width="20" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="eg6-p0-305">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="setSettingOneBtnClick:" target="-2" id="Zlp-5B-nwm"/>
+                                            </connections>
+                                        </button>
+                                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WiQ-Sf-9dQ">
+                                            <rect key="frame" x="10" y="0.0" width="290" height="1"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </customView>
+                                    </subviews>
+                                </customView>
+                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQx-7m-hK9">
+                                    <rect key="frame" x="0.0" y="144" width="310" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fuO-GR-IWn">
+                                            <rect key="frame" x="18" y="11" width="248" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="划词后自动翻译" id="US0-Sp-6zu">
+                                                <font key="font" usesAppearanceFont="YES"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bU-tk-L6q" customClass="SWButton">
+                                            <rect key="frame" x="270" y="10" width="20" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Two-6G-J8T">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="setSettingTwoBtnClick:" target="-2" id="xCO-TI-UEX"/>
+                                            </connections>
+                                        </button>
+                                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0tt-e3-m8d">
+                                            <rect key="frame" x="10" y="0.0" width="290" height="1"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </customView>
+                                    </subviews>
+                                </customView>
+                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eYe-hd-ynb">
+                                    <rect key="frame" x="0.0" y="104" width="310" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HV7-nu-7aj">
+                                            <rect key="frame" x="18" y="11" width="243" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="自动发音" id="23F-CF-xvW">
+                                                <font key="font" usesAppearanceFont="YES"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QDm-8b-gtu" customClass="SWButton">
+                                            <rect key="frame" x="270" y="10" width="20" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="8Of-PF-c1R">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="setSettingThreeBtnClick:" target="-2" id="fTi-Tq-4xc"/>
+                                            </connections>
+                                        </button>
+                                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="28H-Ff-ObC">
+                                            <rect key="frame" x="10" y="0.0" width="290" height="1"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </customView>
+                                    </subviews>
+                                </customView>
+                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="moV-TA-bxA">
+                                    <rect key="frame" x="0.0" y="65" width="310" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ANg-YD-Lsz">
+                                            <rect key="frame" x="18" y="11" width="130" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="设置网页翻译语言" id="EyX-Oz-w7t">
+                                                <font key="font" usesAppearanceFont="YES"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNZ-by-fep">
+                                            <rect key="frame" x="10" y="0.0" width="290" height="1"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        </customView>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HBG-43-lK8" customClass="SWTextField">
+                                            <rect key="frame" x="130" y="11" width="139" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="英文" id="XJF-sd-2Tx">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nca-oJ-ZQ6" customClass="SWButton">
+                                            <rect key="frame" x="270" y="11" width="18" height="18"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="switch" imagePosition="only" alignment="center" alternateImage="switch" imageScaling="proportionallyUpOrDown" inset="2" id="m3I-Ze-Mjs">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="setSwitchBtnClick:" target="-2" id="jZa-zr-G7j"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </customView>
+                            </subviews>
+                        </customView>
+                    </subviews>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="n6m-in-FkF" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="5" id="4tb-jh-Dpz"/>
+                <constraint firstItem="F1U-ZW-FrL" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="35" id="Taj-7D-eTy"/>
+                <constraint firstItem="F1U-ZW-FrL" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="Z9I-C5-IEl"/>
+                <constraint firstItem="n6m-in-FkF" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="ZZW-Oq-xWT"/>
+                <constraint firstAttribute="bottom" secondItem="F1U-ZW-FrL" secondAttribute="bottom" constant="11" id="iqy-9P-oG3"/>
+                <constraint firstAttribute="trailing" secondItem="F1U-ZW-FrL" secondAttribute="trailing" constant="10" id="uPd-V9-TjQ"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="154.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="switch" width="128" height="128"/>
+    </resources>
+</document>

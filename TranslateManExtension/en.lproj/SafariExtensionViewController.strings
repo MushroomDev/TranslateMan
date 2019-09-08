@@ -1,0 +1,27 @@
+
+/* Class = "NSTextFieldCell"; title = "词形"; ObjectID = "2nF-by-erd"; */
+"2nF-by-erd.title" = "Morphology";
+
+/* Class = "NSTextFieldCell"; title = "原文"; ObjectID = "B7d-1P-1ow"; */
+"B7d-1P-1ow.title" = "Source";
+
+/* Class = "NSButtonCell"; title = "自动检测"; ObjectID = "KZT-bf-xab"; */
+"KZT-bf-xab.title" = "AutoCheck";
+
+/* Class = "NSTextFieldCell"; title = "→"; ObjectID = "WkU-FT-2F1"; */
+"WkU-FT-2F1.title" = "→";
+
+/* Class = "NSTextFieldCell"; title = "[发音]"; ObjectID = "fxJ-kI-ja8"; */
+"fxJ-kI-ja8.title" = "[Read Word]";
+
+/* Class = "NSTextFieldCell"; placeholderString = "输入单词或句子"; ObjectID = "rp7-yE-RI2"; */
+"rp7-yE-RI2.placeholderString" = "Please Input Word or Sentence";
+
+/* Class = "NSTextFieldCell"; title = "译文"; ObjectID = "wfC-Ac-nNh"; */
+"wfC-Ac-nNh.title" = "Translation";
+
+/* Class = "NSTextFieldCell"; title = "译文"; ObjectID = "xzK-Wf-Lck"; */
+"xzK-Wf-Lck.title" = "Translation";
+
+/* Class = "NSButtonCell"; title = "英语"; ObjectID = "yKE-t1-5b1"; */
+"yKE-t1-5b1.title" = "English";
