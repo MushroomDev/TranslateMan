@@ -62,6 +62,10 @@
 - (void)contextMenuItemSelectedWithCommand:(NSString *)command inPage:(SFSafariPage *)page userInfo:(nullable NSDictionary<NSString *, id> *)userInfo
 {
     NSLog(@"command %@",command);
+    // 要翻译句子
+    if ([command isEqualToString:@"Translate"]) {
+            
+    }
 }
 
 - (void)toolbarItemClickedInWindow:(SFSafariWindow *)window {
@@ -97,6 +101,7 @@
 
 #pragma mark - Getter
 
+/** 获取Google翻译对象 */
 - (GoogleTransService *)transService
 {
     if (_transService == nil) {
